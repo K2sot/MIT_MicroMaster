@@ -14,9 +14,9 @@ from kernel import *
 #######################################################################
 
 # Load MNIST data:
-train_x, train_y, test_x, test_y = get_MNIST_data()
+train_x, train_y, test_x, test_y = utils.get_MNIST_data()
 # Plot the first 20 images of the training set.
-plot_images(train_x[0:20, :])
+utils.plot_images(train_x[0:20, :])
 
 #######################################################################
 # 2. Linear Regression with Closed Form Solution

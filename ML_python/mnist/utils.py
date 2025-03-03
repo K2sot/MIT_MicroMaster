@@ -74,3 +74,4 @@ def load_train_and_test_pickle(file_name):
 def load_CSV(filename):
     stuff = np.asarray(np.loadtxt(open(filename, 'rb'), delimiter=','))
     return stuff
+
